@@ -1,4 +1,4 @@
-# *PROJECT NAME*
+# Weather App
 #### By Trent Dietzel
 
 ## Table of Contents
@@ -14,24 +14,23 @@
 - [Contact](#contact)
 
 ## About
-*ABOUT SECTION*
-
-The primary functionality of the application is *FILL IN*...:
-- 
-- 
-- 
+The Weather App allows users to get the current weather conditions for a location by entering the city name or the city and state separated by a comma. It provides information such as temperature, humidity, daily high and low, and wind speed.
 
 ## Demo
-You can try out the live demo of *PROJECT NAME* [here](https://tdietzel22.github.io/Mr_Robo_Neighborhood/).
+You can try out the live demo of the Weather App [here](#) (Not Working ATM).
 
 ## Technologies Used
 - HTML
-- CSS
+- CSS (Bootstrap for styling)
 - JavaScript
+- NPM (Node Package Manager): for package management
+- OpenWeatherMap API: for weather data
+- Lint: for code quality and style checking
+- Webpack: for bundling and building the project
+- Jest: for testing the JavaScript code
 
 ## Features
-- **FEATURE**: 
-- **FEATURE**: 
+- **Get Weather Conditions**: Enter a city name or city and state to retrieve current weather information.
 
 ## Installation
 
@@ -39,21 +38,27 @@ Follow these steps to set up the project locally:
 1. Open Git BASH [Download Link](https://gitforwindows.org/)
 2. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/*PROJECT_NAME*.git
+   git clone https://github.com/tdietzel22/Open_Weather_API
 3. Open the project directory:
    ```bash
-   cd *PROJECT NAME*
-4. Open the __index.html__ file in your web browser or use a code editor like __Visual Studio Code__ for further development.
+   cd Open_Weather_API
+4. Open in a code editor like __Visual Studio Code__.
+5. Open the VS Code terminal and enter this command to install needed dependencies:
+   ```bash
+   npm install dotenv-webpack@8.0.1 --save-dev
+   ```
+6. The run once installed to view in browser or to use for further development:
+   ```bash
+   npm run start
+   ```
 
 ## Usage
+To use the Weather App:
 
-To use *PROJECT NAME*:
-1. Visit the website [Here](https://tdietzel22.github.io/*PROJECT_NAME*/).
-2. 
-3. 
-4. 
-5. 
-6. 
+1. Visit the website [here](#) (Not Working) or Install using steps above.
+2. Enter a location (city name or city, state) in the input field.
+3. Click the "Get Current Temperature and Humidity" button.
+4. View the weather information displayed on the page.
 
 ## Contributing
 
@@ -67,7 +72,7 @@ I welcome contributions to improve the project. If you'd like to contribute, ple
 
 ## Known Bugs
 
-* _N/A_
+* _Demos not working_
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
