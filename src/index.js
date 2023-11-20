@@ -6,6 +6,7 @@ import './css/styles.css';
 
 function getWeather(city) {
   let request = new XMLHttpRequest();
+  // https://openweathermap.org/
   const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.API_KEY}&units=imperial`;
   
   request.addEventListener("loadend", function() {
